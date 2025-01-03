@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Interesting Things</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header, footer {
+            background-color: #0044cc;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .item {
+            margin: 15px;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                flex-direction: column;
+            }
+            img {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Explore Interesting Things!</h1>
+    </header>
+    <main>
+        <section id="funny-animals">
+            <h2>Funny Animals</h2>
+            <div class="content">
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" alt="Funny Cat">
+                    <p>A cat that looks like it's plotting something sneaky!</p>
+                </div>
+                <!-- Updated Funny Cow Image -->
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/320px-Cow_female_black_white.jpg" alt="Funny Cow">
+                    <p>This cow looks like it just heard a great joke!</p>
+                </div>
+            </div>
+        </section>
+        <section id="weird-science">
+            <h2>Weird Science Facts</h2>
+            <div class="content">
+                <!-- Updated Iceberg Image -->
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Iceberg_in_Antarctic_Sound_2016.jpg/320px-Iceberg_in_Antarctic_Sound_2016.jpg" alt="Iceberg">
+                    <p>Did you know? Icebergs sometimes flip over, revealing a startlingly different and vibrant blue underside!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="amazing-space">
+            <h2>Amazing Space Pictures</h2>
+            <div class="content">
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" alt="Full Moon">
+                    <p>A stunning full moon, closer than ever!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Page created for educational and entertainment purposes.</p>
+    </footer>
+</body>
+</html>
